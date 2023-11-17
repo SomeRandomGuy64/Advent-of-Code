@@ -6,7 +6,7 @@ int main(void) {
     int floor = 0;
     int position = 0;
 
-    ptr = fopen("instructions.txt", "r");
+    ptr = fopen("../instructions.txt", "r");
 
     if (NULL == ptr) {
         printf("file can't be opened \n");

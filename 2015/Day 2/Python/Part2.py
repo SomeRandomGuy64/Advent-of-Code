@@ -13,7 +13,7 @@
 # once the list has been completely looped through i output total_ribbon_needed
 import re
 
-order_list_file = open("order_list.txt", "r")
+order_list_file = open("../order_list.txt", "r")
 ribbon_to_order = order_list_file.read()
 dimensions_list = ribbon_to_order.split("\n")
 

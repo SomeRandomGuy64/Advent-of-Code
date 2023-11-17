@@ -7,7 +7,7 @@
 # loop through the instructions, every time the character is ( add one to floor_number, every time the character is ) take one to floor_number
 # one the floor_number reaches -1 break out of the loop and output instruction_position
 
-instructions_file = open("instructions.txt", "r")
+instructions_file = open("../instructions.txt", "r")
 instructions = instructions_file.read()
 
 floor_number = 0

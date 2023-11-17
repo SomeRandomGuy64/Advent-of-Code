@@ -15,7 +15,7 @@
 # once the paper_to_order list has been looped through output the value of paper_to_order_amount
 import re
 
-paper_to_order_file = open("order_list.txt", "r")
+paper_to_order_file = open("../order_list.txt", "r")
 paper_to_order = paper_to_order_file.read()
 dimensions_list = paper_to_order.split("\n")
 

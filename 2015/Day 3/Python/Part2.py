@@ -9,7 +9,7 @@
 # for the current location store the current location in the tuple
 # find the length of the map
 
-instructions_file = open("instructions.txt", "r")
+instructions_file = open("../instructions.txt", "r")
 instructions = instructions_file.read()
 
 coordinates = set()
